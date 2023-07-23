@@ -2,7 +2,7 @@
 #define SORT_H
 #include <stdlib.h>
 /**
- * struct listint - double linked list
+ * struct listint_d - double linked list
  * @n: int inserted in node
  * @prev: pointer to previous element of list
  * @next: pointer to last element of list
