@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * struct listint - double linked list
- * @w: int inserted in node
+ * @n: int inserted in node
  * @prev: pointer to previous element of list
  * @next: pointer to last element of list
  *
@@ -11,7 +11,7 @@
 
 typedef struct listint
 {
-	const int w;
+	const int n;
 	struct listint *prev;
 	struct listint *next;
 } listint_t;
