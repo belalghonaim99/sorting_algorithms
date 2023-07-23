@@ -9,11 +9,11 @@
  *
  */
 
-typedef struct listint
+typedef struct listint_n
 {
 	const int n;
-	struct listint *prev;
-	struct listint *next;
+	struct listint_n *prev;
+	struct listint_n *next;
 } listint_t;
 
 void bubble_sort(int *array, size_t size);
